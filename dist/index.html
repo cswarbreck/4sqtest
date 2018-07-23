@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Place Search App - Foursquare Test</title>
+
+    <link rel='stylesheet' type='text/css' href='css/site.css'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4 text-center">Search for venues!</h1>
+            <br />
+            <p class="lead text-center">This is a simple venue search function based on the Foursquare API using jQuery $.ajax to return a list of results for a given location.</p>
+            <br/>
+            <p class="lead text-center">The search will return up to ten results based on your criteria.</p>
+            <hr class="my-4">
+            <form>
+                <div class="form-group">
+                  <label>Venue</label>
+                  <input class="form-control" id="enterSearch" aria-describedby="emailHelp" placeholder="What are you looking for?">
+                  <small class="form-text text-muted">You can search for bars, cafes, pubs, restaurants... or anything else you can think of!</small>
+                </div>
+                <div class="form-group">
+                  <label>Where are you looking for it?</label>
+                  <input class="form-control" id="placeSearch" placeholder="City name, area, postcode etc...">
+                </div>
+                <button type="button" class="btn btn-outline-dark" id="conductSearch">search</button>
+              </form>
+              <ul id="searchResults">
+                  
+                Enter a search to see results here!
+            </ul>
+          </div>
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!--Gulp-useref will concatenate all files with the same type between the following tags:-->
+
+    <script src="js/main.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/styles.min.css">
+
+</body>
+
+</html>
