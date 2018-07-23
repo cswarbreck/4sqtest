@@ -6,7 +6,7 @@ $(document).ready(function(){
 
         var url = "https://api.foursquare.com/v2/venues/search?v=20180715&intent=browse&radius=1000&near="+placeSearch+"&limit=10&query="+enteredSearch+"&client_id=REZMP55CN0LQT4RIP5UPQ32EMXOUD0RMVV5KNKZL2NVYRQZY&client_secret=UJX5I0FH51FHWLLEW4Y2FSYYCVG0SCGLSGBGFCW5P3ZURQ1I&v=20180718";
         $.ajax({
-          url: url,
+          url: url, 
           dataType: 'json',
           beforeSend: function (xhr) {
             if (xhr && xhr.overrideMimeType) {
